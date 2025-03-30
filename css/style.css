@@ -105,6 +105,7 @@ h2 {
 @media (max-width: 768px) {
     .burger-button {
         display: block;
+        z-index: 1001;
     }
 
     .navBar {
@@ -118,6 +119,7 @@ h2 {
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         width: 200px;
         padding: 10px 0;
+        z-index: 1000; 
     }
 
     .navBar.active {
@@ -129,5 +131,6 @@ h2 {
         text-align: center;
         color: #007bff;
         font-weight: bold;
+        display: block;
     }
 }
